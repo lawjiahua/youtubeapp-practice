@@ -14,6 +14,9 @@
 		AD5F89832A8D06A6000F9ABB /* Youtube_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89812A8D06A6000F9ABB /* Youtube_app.xcdatamodeld */; };
 		AD5F89852A8D06A8000F9ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5F89842A8D06A8000F9ABB /* Assets.xcassets */; };
 		AD5F89882A8D06A8000F9ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5F89862A8D06A8000F9ABB /* LaunchScreen.storyboard */; };
+		AD5F89902A8D1A08000F9ABB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F898F2A8D1A08000F9ABB /* Constants.swift */; };
+		AD5F89922A8D1CDB000F9ABB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89912A8D1CDB000F9ABB /* Video.swift */; };
+		AD5F89942A8D1D4D000F9ABB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89932A8D1D4D000F9ABB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		AD5F89842A8D06A8000F9ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5F89872A8D06A8000F9ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD5F89892A8D06A8000F9ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5F898F2A8D1A08000F9ABB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD5F89912A8D1CDB000F9ABB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AD5F89932A8D1D4D000F9ABB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				AD5F89862A8D06A8000F9ABB /* LaunchScreen.storyboard */,
 				AD5F89892A8D06A8000F9ABB /* Info.plist */,
 				AD5F89812A8D06A6000F9ABB /* Youtube_app.xcdatamodeld */,
+				AD5F898F2A8D1A08000F9ABB /* Constants.swift */,
+				AD5F89912A8D1CDB000F9ABB /* Video.swift */,
+				AD5F89932A8D1D4D000F9ABB /* Model.swift */,
 			);
 			path = "Youtube-app";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5F89942A8D1D4D000F9ABB /* Model.swift in Sources */,
+				AD5F89902A8D1A08000F9ABB /* Constants.swift in Sources */,
+				AD5F89922A8D1CDB000F9ABB /* Video.swift in Sources */,
 				AD5F897D2A8D06A6000F9ABB /* ViewController.swift in Sources */,
 				AD5F89832A8D06A6000F9ABB /* Youtube_app.xcdatamodeld in Sources */,
 				AD5F89792A8D06A6000F9ABB /* AppDelegate.swift in Sources */,
