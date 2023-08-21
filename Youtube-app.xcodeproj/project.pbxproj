@@ -17,6 +17,8 @@
 		AD5F89902A8D1A08000F9ABB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F898F2A8D1A08000F9ABB /* Constants.swift */; };
 		AD5F89922A8D1CDB000F9ABB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89912A8D1CDB000F9ABB /* Video.swift */; };
 		AD5F89942A8D1D4D000F9ABB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89932A8D1D4D000F9ABB /* Model.swift */; };
+		AD5F89962A93B73D000F9ABB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89952A93B73D000F9ABB /* Response.swift */; };
+		AD5F89982A93BAC4000F9ABB /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89972A93BAC4000F9ABB /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AD5F898F2A8D1A08000F9ABB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AD5F89912A8D1CDB000F9ABB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		AD5F89932A8D1D4D000F9ABB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AD5F89952A93B73D000F9ABB /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		AD5F89972A93BAC4000F9ABB /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				AD5F898F2A8D1A08000F9ABB /* Constants.swift */,
 				AD5F89912A8D1CDB000F9ABB /* Video.swift */,
 				AD5F89932A8D1D4D000F9ABB /* Model.swift */,
+				AD5F89952A93B73D000F9ABB /* Response.swift */,
+				AD5F89972A93BAC4000F9ABB /* ConstantsTemplate.swift */,
 			);
 			path = "Youtube-app";
 			sourceTree = "<group>";
@@ -150,11 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5F89962A93B73D000F9ABB /* Response.swift in Sources */,
 				AD5F89942A8D1D4D000F9ABB /* Model.swift in Sources */,
 				AD5F89902A8D1A08000F9ABB /* Constants.swift in Sources */,
 				AD5F89922A8D1CDB000F9ABB /* Video.swift in Sources */,
 				AD5F897D2A8D06A6000F9ABB /* ViewController.swift in Sources */,
 				AD5F89832A8D06A6000F9ABB /* Youtube_app.xcdatamodeld in Sources */,
+				AD5F89982A93BAC4000F9ABB /* ConstantsTemplate.swift in Sources */,
 				AD5F89792A8D06A6000F9ABB /* AppDelegate.swift in Sources */,
 				AD5F897B2A8D06A6000F9ABB /* SceneDelegate.swift in Sources */,
 			);
