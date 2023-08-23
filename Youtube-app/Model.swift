@@ -7,7 +7,16 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    
+    func populateVideos(_ videos:[Video])
+    
+}
+
+
 class Model {
+    
+    var delegate: ModelDelegate?
     
     func getVideos() {
         
@@ -34,6 +43,13 @@ class Model {
                 decoder.dateDecodingStrategy = .iso8601
                 
                 let response = try decoder.decode(Response.self, from: data!)
+                
+                if (response.items != nil) {
+                    // because self.delegate is a UI method, we need to call the main thread to execute this
+                    DispatchQueue.main.async {
+                        self.delegate?.populateVideos(response.items!)
+                    }
+                }
                 
                 dump(response)
             }
