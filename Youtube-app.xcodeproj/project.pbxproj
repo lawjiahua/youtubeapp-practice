@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1AB3402A9E2F2600E39AE2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB33F2A9E2F2600E39AE2 /* TableViewCell.swift */; };
+		AD1AB3422A9E390600E39AE2 /* Cachemanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB3412A9E390600E39AE2 /* Cachemanager.swift */; };
 		AD5F89792A8D06A6000F9ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F89782A8D06A6000F9ABB /* AppDelegate.swift */; };
 		AD5F897B2A8D06A6000F9ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F897A2A8D06A6000F9ABB /* SceneDelegate.swift */; };
 		AD5F897D2A8D06A6000F9ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F897C2A8D06A6000F9ABB /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1AB33F2A9E2F2600E39AE2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AD1AB3412A9E390600E39AE2 /* Cachemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachemanager.swift; sourceTree = "<group>"; };
 		AD5F89752A8D06A6000F9ABB /* Youtube-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5F89782A8D06A6000F9ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5F897A2A8D06A6000F9ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD1AB3392A9E2EA300E39AE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F897C2A8D06A6000F9ABB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD1AB33A2A9E2EB600E39AE2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F89782A8D06A6000F9ABB /* AppDelegate.swift */,
+				AD5F897A2A8D06A6000F9ABB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AD1AB33B2A9E2EC200E39AE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F89912A8D1CDB000F9ABB /* Video.swift */,
+				AD5F89932A8D1D4D000F9ABB /* Model.swift */,
+				AD5F89952A93B73D000F9ABB /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD1AB33E2A9E2F1100E39AE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AB33F2A9E2F2600E39AE2 /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AD5F896C2A8D06A6000F9ABB = {
 			isa = PBXGroup;
 			children = (
@@ -68,19 +107,18 @@
 		AD5F89772A8D06A6000F9ABB /* Youtube-app */ = {
 			isa = PBXGroup;
 			children = (
-				AD5F89782A8D06A6000F9ABB /* AppDelegate.swift */,
-				AD5F897A2A8D06A6000F9ABB /* SceneDelegate.swift */,
-				AD5F897C2A8D06A6000F9ABB /* ViewController.swift */,
+				AD1AB33E2A9E2F1100E39AE2 /* Views */,
+				AD1AB33B2A9E2EC200E39AE2 /* Models */,
+				AD1AB33A2A9E2EB600E39AE2 /* Delegates */,
+				AD1AB3392A9E2EA300E39AE2 /* Controller */,
 				AD5F897E2A8D06A6000F9ABB /* Main.storyboard */,
 				AD5F89842A8D06A8000F9ABB /* Assets.xcassets */,
 				AD5F89862A8D06A8000F9ABB /* LaunchScreen.storyboard */,
 				AD5F89892A8D06A8000F9ABB /* Info.plist */,
 				AD5F89812A8D06A6000F9ABB /* Youtube_app.xcdatamodeld */,
 				AD5F898F2A8D1A08000F9ABB /* Constants.swift */,
-				AD5F89912A8D1CDB000F9ABB /* Video.swift */,
-				AD5F89932A8D1D4D000F9ABB /* Model.swift */,
-				AD5F89952A93B73D000F9ABB /* Response.swift */,
 				AD5F89972A93BAC4000F9ABB /* ConstantsTemplate.swift */,
+				AD1AB3412A9E390600E39AE2 /* Cachemanager.swift */,
 			);
 			path = "Youtube-app";
 			sourceTree = "<group>";
@@ -159,8 +197,10 @@
 				AD5F89962A93B73D000F9ABB /* Response.swift in Sources */,
 				AD5F89942A8D1D4D000F9ABB /* Model.swift in Sources */,
 				AD5F89902A8D1A08000F9ABB /* Constants.swift in Sources */,
+				AD1AB3422A9E390600E39AE2 /* Cachemanager.swift in Sources */,
 				AD5F89922A8D1CDB000F9ABB /* Video.swift in Sources */,
 				AD5F897D2A8D06A6000F9ABB /* ViewController.swift in Sources */,
+				AD1AB3402A9E2F2600E39AE2 /* TableViewCell.swift in Sources */,
 				AD5F89832A8D06A6000F9ABB /* Youtube_app.xcdatamodeld in Sources */,
 				AD5F89982A93BAC4000F9ABB /* ConstantsTemplate.swift in Sources */,
 				AD5F89792A8D06A6000F9ABB /* AppDelegate.swift in Sources */,
